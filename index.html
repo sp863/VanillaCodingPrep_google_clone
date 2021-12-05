@@ -35,22 +35,25 @@
     </header>
 
     <main class="main-section">
-      <img
-        class="main-google-logo"
-        alt="google logo"
-        src="img/google-logo-main.png"
-      />
+      <div class="main-google">
+        <img
+          class="main-google-logo"
+          alt="google logo"
+          src="img/google-logo-main.png"
+        />
+      </div>
 
       <div class="search-box">
         <ion-icon class="search-icon" name="search-outline"></ion-icon>
         <input id="search-text" type="text" required />
-        <ion-icon name="mic-outline"></ion-icon>
+        <ion-icon class="voice-icon" name="mic-outline"></ion-icon>
       </div>
 
-      <div class="btn-main">
-        <a class="google-search" href="https://www.google.com/" />
-        <a class="feeling-lucky" href="https://www.google.com/doodles" />
+      <div class="two-btn">
+        <button class="btn">Google Search</button>
+        <button class="btn">I'm Feeling Lucky</button>
       </div>
+
       <p class="offered-in">
         Google offered in: <a class="language" href="#">한국어</a>
       </p>
